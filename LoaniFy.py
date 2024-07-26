@@ -3,7 +3,7 @@ import pickle
 def main():
     # giving title
     st.title('LoaniFy: Loan Prediction Web App')
-    st.image("C:/Users/PRIYANSHU/Desktop/Python_Vsc/Loan Prediction/loan.png", width=200)
+    st.image("loan.png", width=200)
 
     left, right = st.columns((2,2))
     gender = left.selectbox('Gender', ('Male','Female'))
@@ -26,7 +26,7 @@ def main():
         st.success(f"You are {result} for the loan.")
 
 #Load the train model
-with open('C:/Users/PRIYANSHU/Desktop/Python_Vsc/Loan Prediction/model/train_model.pkl','rb') as pkl:
+with open('train_model.pkl','rb') as pkl:
     train_model = pickle.load(pkl)
 
 def predict(gender, married, dependent, education, self_employed, applicant_income,
