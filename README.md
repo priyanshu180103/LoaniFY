@@ -5,3 +5,4 @@ The Link to the Web-App GlucoPredict--->https://loanify-cxpn7j8736mrkhpvlrubto.s
 
 # Demo
 
+![Screenshot 2024-07-27 204153](https://github.com/user-attachments/assets/5b45cc0b-56b4-41e3-87ef-37905e422966)
