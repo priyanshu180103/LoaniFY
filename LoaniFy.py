@@ -15,7 +15,7 @@ def main():
     coApplicantIncome = left.number_input('Coapplicant Income')
     loanAmount = right.number_input('Loan Amount')
     loan_amount_term = left.number_input('Loan Tenor (in months)')
-    creditHistory = right.number_input('Credit History', 0.0, 1.0)
+    creditHistory = right.number_input('Credit Score', 0.0, 1.0)
     propertyArea = st.selectbox('Property Area', ('Semiurban', 'Urban', 'Rural'))
     button = st.button('Predict')
 
